@@ -1,0 +1,11 @@
+C:\Users\codyb\Documents\Code\Business Systems Programming\obj\Debug\netcoreapp2.2\Business Systems Programming.csprojAssemblyReference.cache
+C:\Users\codyb\Documents\Code\Business Systems Programming\obj\Debug\netcoreapp2.2\Business Systems Programming.csproj.CoreCompileInputs.cache
+C:\Users\codyb\Documents\Code\Business Systems Programming\obj\Debug\netcoreapp2.2\Business Systems Programming.AssemblyInfoInputs.cache
+C:\Users\codyb\Documents\Code\Business Systems Programming\obj\Debug\netcoreapp2.2\Business Systems Programming.AssemblyInfo.cs
+C:\Users\codyb\Documents\Code\Business Systems Programming\bin\Debug\netcoreapp2.2\Business Systems Programming.deps.json
+C:\Users\codyb\Documents\Code\Business Systems Programming\bin\Debug\netcoreapp2.2\Business Systems Programming.runtimeconfig.json
+C:\Users\codyb\Documents\Code\Business Systems Programming\bin\Debug\netcoreapp2.2\Business Systems Programming.runtimeconfig.dev.json
+C:\Users\codyb\Documents\Code\Business Systems Programming\bin\Debug\netcoreapp2.2\Business Systems Programming.dll
+C:\Users\codyb\Documents\Code\Business Systems Programming\bin\Debug\netcoreapp2.2\Business Systems Programming.pdb
+C:\Users\codyb\Documents\Code\Business Systems Programming\obj\Debug\netcoreapp2.2\Business Systems Programming.dll
+C:\Users\codyb\Documents\Code\Business Systems Programming\obj\Debug\netcoreapp2.2\Business Systems Programming.pdb
