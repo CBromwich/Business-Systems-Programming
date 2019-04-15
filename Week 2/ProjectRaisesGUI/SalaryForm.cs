@@ -25,25 +25,19 @@ namespace ProjectRaisesGUI
             InitializeComponent();
         }
 
-        private void Label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Label1_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void TextBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void Button_calculate_Click(object sender, EventArgs e)
         {
-            // Set the text of the modifiedSalary label to the value of the text box * 1.04 (4%)
-            label_modifiedSalary.Text = Convert.ToString(Convert.ToDouble(textbox_currentSalary.Text) * 1.04);
+            // Check for empty values or negative values
+            if (textbox_currentSalary.Text == string.Empty || Convert.ToInt32(textbox_currentSalary.Text) < 0)
+            {
+                MessageBox.Show("Please enter a valid value");
+            }
+            else
+            {
+                // Set the text of the modifiedSalary label to the value of the text box * 1.04 (4%)
+                label_modifiedSalary.Text = Convert.ToString(Convert.ToDouble(textbox_currentSalary.Text) * 1.04);
+            }
+            
         }
     }
 }

@@ -43,7 +43,6 @@
             this.label_enterSalary.Size = new System.Drawing.Size(86, 17);
             this.label_enterSalary.TabIndex = 0;
             this.label_enterSalary.Text = "Enter Salary";
-            this.label_enterSalary.Click += new System.EventHandler(this.Label1_Click_1);
             // 
             // textbox_currentSalary
             // 
@@ -51,7 +50,6 @@
             this.textbox_currentSalary.Name = "textbox_currentSalary";
             this.textbox_currentSalary.Size = new System.Drawing.Size(100, 22);
             this.textbox_currentSalary.TabIndex = 1;
-            this.textbox_currentSalary.TextChanged += new System.EventHandler(this.TextBox1_TextChanged);
             // 
             // button_calculate
             // 
