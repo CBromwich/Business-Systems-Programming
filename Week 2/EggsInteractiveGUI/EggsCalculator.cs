@@ -19,10 +19,12 @@ namespace EggsInteractiveGUI
 
         private void Button_calculateEggs_Click(object sender, EventArgs e)
         {
-            List<Control> textBoxes = getTextBoxes();
-            if (validateTextBoxes(textBoxes))
+            List<Control> textBoxes = getTextBoxes(); // List of textbox controls on the form
+            if (validateTextBoxes(textBoxes)) // Check input of textboxes for valid values
             {
-                int sum = sumEggs(textBoxes);
+                int sum = sumEggs(textBoxes); // Gets sum of all textboxes
+                // Calculates how many dozens then how many remaining eggs and sets the text of label_eggsTotalDisplay to a
+                // string displaying these values.
                 label_eggsTotalDisplay.Text = Convert.ToString((sum / 12) + " dozen and " + (sum % 12) + " eggs");
             }
             else
@@ -45,6 +47,10 @@ namespace EggsInteractiveGUI
             return sum;
         }
 
+        /*
+         * Loops through list of textboxes and validates their values are neither blank nor negative.
+         * Returns false if any boxes have an invalid input or true otherwise.
+         */
         bool validateTextBoxes(List<Control> textBoxes)
         {
             foreach (TextBox t in textBoxes)
