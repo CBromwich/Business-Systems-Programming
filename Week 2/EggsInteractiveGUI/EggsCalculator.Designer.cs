@@ -180,6 +180,7 @@
             this.Controls.Add(this.label_chicken1);
             this.Controls.Add(this.textBox_numEggs);
             this.Controls.Add(this.label_numEggs);
+            this.MaximizeBox = false;
             this.Name = "EggsCalculator";
             this.ShowIcon = false;
             this.Text = "Eggs Calculator";
